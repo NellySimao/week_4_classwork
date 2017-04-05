@@ -1,0 +1,90 @@
+body {
+	margin: 0;
+}
+
+.container-left,
+.container-right {
+	height: 400px;
+	width: 50%;
+	display: inline-block;
+	margin: 0 -3px;
+}
+
+.top-left,
+.bottom-left, 
+.top-right,
+.bottom-right {
+	height: 100px;
+	width: 94%;
+	border: 1px solid black;
+	margin: 15px auto;
+	padding: 5px;	
+}
+
+.top-left {
+	background-color: red;
+}
+
+.bottom-left {
+	background-color: yellow;
+}
+
+.top-right {
+	background-color: lightgreen;
+}
+
+.bottom-right {
+	background-color: pink;
+}
+
+@media (max-width: 710px) {
+	.top-right,
+	.bottom-left {
+		display: none;
+	}
+}
+
+
+.container-left-2,
+.container-right-2 {
+	height: 400px;
+	width: 50%;
+	display: inline-block;
+	margin: 0 -3px;
+}
+
+.top-left-2,
+.bottom-left-2, 
+.top-right-2,
+.bottom-right-2 {
+	height: 100px;
+	width: 50%;
+	border: 1px solid black;
+	margin: 15px auto;
+	padding: 5px;	
+}
+
+.top-left-2 {
+	background-color: red;
+}
+
+.bottom-left-2 {
+	background-color: yellow;
+}
+
+.top-right-2 {
+	background-color: lightgreen;
+}
+
+.bottom-right-2 {
+	background-color: pink;
+}
+
+@media (min-width: 700px) {
+	.top-left-2,
+	.bottom-left-2, 
+	.top-right-2,
+	.bottom-right-2 {
+		width: 100%
+	}
+}
